@@ -1,0 +1,53 @@
+import Vue from 'vue'
+import {
+  Button,
+  NavBar,
+  Cell,
+  CellGroup,
+  Field,
+  Tabbar,
+  Tab,
+  Tabs,
+  TabbarItem,
+  Uploader,
+  Icon,
+  ImagePreview,
+  Search,
+  Switch,
+  List,
+  PullRefresh,
+  DatetimePicker,
+  Popup,
+  Picker,
+  ActionSheet,
+  NoticeBar,
+  Dialog,
+  Toast,
+  Lazyload
+} from 'vant'
+
+Vue.use(Button)
+  .use(NavBar)
+  .use(Cell)
+  .use(CellGroup)
+  .use(Field)
+  .use(Tabbar)
+  .use(Tab)
+  .use(Tabs)
+  .use(TabbarItem)
+  .use(Uploader)
+  .use(Icon)
+  .use(ImagePreview)
+  .use(Search)
+  .use(List)
+  .use(PullRefresh)
+  .use(Popup)
+  .use(Picker)
+  .use(Toast)
+  .use(ActionSheet)
+  .use(NoticeBar)
+  .use(Dialog)
+  .use(Switch)
+  .use(DatetimePicker)
+  .use(Lazyload)
+  .use(Uploader)

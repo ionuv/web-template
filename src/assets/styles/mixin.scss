@@ -1,0 +1,29 @@
+/** 2019/2/18
+ * @Author: 刘宇琳
+ * @Desc: flex布局
+ */
+@mixin center($direction: column) {
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex($direction: row, $inline: flex, $flexWrap: wrap, $justifyContent: space-around, $align-items: center) {
+  display: $inline;
+  flex-direction: $direction;
+  flex-wrap: $flexWrap;
+  justify-content: $justifyContent;
+  align-items: $align-items;
+}
+
+/** 2019/2/18
+ * @Author: 刘宇琳
+ * @Desc: 多行超出省略号
+ */
+@mixin ell2() {
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
