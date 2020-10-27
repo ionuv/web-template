@@ -15,8 +15,9 @@ if (userAgent.indexOf('micromessenger') > -1) {
       'blur',
       e => {
         // 这里加了个类型判断，因为a等元素也会触发blur事件
-        ;['input', 'textarea'].includes(e.target.localName) &&
+        if (['input', 'textarea'].includes(e.target.localName)) {
           document.body.scrollIntoView(false)
+        }
       },
       true
     )
