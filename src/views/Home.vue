@@ -18,3 +18,14 @@ export default {
   }
 }
 </script>
+
+<style lang="css">
+
+/* 滚动列表添加 */
+* {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+  
+</style>
